@@ -1,0 +1,62 @@
+body{
+background-image: url(assets/images/stonehaven.png)
+}
+p{
+    color: #777777;
+    float: middle;
+}
+p{
+    color: #777777;
+    float: right;
+}
+
+.About_Me {
+    float: middle;
+    color: #4aaaa5;
+}
+.image {
+float: left;
+}
+.h1 {
+    background: #4aaaa5;
+    color: white;
+  width: 25%;
+  border-style: solid; 
+  border-color: #cccccc;
+}
+h2{
+    float: right;
+    position: relative;
+    margin: -2.2% 0% 0% 0%;
+    color: #4aaaa5;
+}
+.github{
+    width: 30px;
+    float: right;
+    position: relative;
+    
+}
+.linkedin{
+    width: 30px;
+    float: right;
+    position: relative;
+}
+.stackoverflow{
+    width: 30px;
+    float: right;
+    position: relative;
+}
+.wrapper{
+    margin: auto;
+    width: 960px;
+}
+.section{
+    float: left;
+    background-color: white;
+}
+.logo{
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    float: left;
+    background-color: white;
+    }

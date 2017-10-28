@@ -1,45 +1,143 @@
-head{
-background-image: assets/images/stonehaven.png;
-}
-p{
-    color: #777777;
-    float: middle;
-}
-p{
-    color: #777777;
-    float: right;
-}
-
-.About_Me {
-    float: middle;
-    color: #4aaaa5;
-}
-.image {
-float: left;
-}
-.h1 {
+body{
+    background-image: url(assets/images/stonehaven.png);
+    margin: 0px;
+    }
+    p{
+        color: #777777;
+        float: middle;
+    }
+    p{
+        color: #777777;
+        
+    }   
+    .About_Me {
+        float: middle;
+        color: #4aaaa5;
+    }
+    .image {
+    float: left;
+    clear: right;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    }
+    .h1 {
     background: #4aaaa5;
     color: white;
-  width: 25%;
-  border-style: solid; 
-  border-color: #cccccc;
+    width: 40%;
+    padding: 12px;
+    margin: 0px;
+    
+    
+    }
+.site-content{
+    margin: auto;
+    width: 960px;
+    background-color: rgb(224, 15, 15);
 }
-h2{
-    float: right;
-    position: relative;
+section{
+    height: 495px;
+    padding: 15px;
+    margin-top: 40px;
+    margin-right: 18px;
+    float: left;
+    background-color: #ffffff;
+    width: 620px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
 }
-.github{
-    width: 30px;
-    float: right;
-    position: relative;
-}
-.linkedin{
-    width: 30px;
-    float: right;
-    position: relative;
-}
-.stackoverflow{
-    width: 30px;
-    float: right;
-    position: relative;
-}
+aside {
+    width: 240px;
+    height: 175px;
+    padding: 15px;
+    margin-top: 40px;
+    /* margin-left: 18px; */
+    float: left;
+    background-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    }
+    /* Header Styling */
+    header{
+        padding: 5px;
+        border-style: solid;
+        border-width: 0px 0px 0px 0px;
+        border-color: #cccccc;
+        height: 50px;
+        background-color: white;
+
+    }
+    .name{
+        Position: Absolute;
+        top: 0px;
+        padding: -1px;
+        left: 42px;
+    }
+    nav{
+        position: absolute;
+        right: 30px;
+        top: 25px;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        display: inline;
+        text-decoration: none;
+        padding: 0px 15px;
+    }
+    li+li{
+        border-width: 0px 0px 0px 1px; 
+        border-style: solid; 
+        border-color: #777777;
+    }
+    a:link{
+        text-decoration: none;
+        color: #777777;    
+    }
+    a:visited{
+        text-decoration: none;
+        color: #777777;    
+    }
+    a:hover{
+        text-decoration: none;
+        color: #777777;
+    }
+    a:active{
+        text-decoration: none;
+        color: #777777;    
+    }
+    h2{
+        text-align: center;
+        position: relative;
+        margin: -2.2% 0% 0% 0%;
+        color: #4aaaa5;
+        font-family: "Georgia";
+    }
+    .github{
+        width: 30px;
+        /* float: right; */
+        position: relative;
+        
+        
+    }
+    .linkedin{
+        width: 30px;
+        /* float: right; */
+        position: relative;
+    }
+    .stackoverflow{
+        width: 30px;
+        /* float: right; */
+        position: relative;
+    }
+    div{
+        margin: auto;
+        width: 60%
+    }
+    .footer{
+        
+    }

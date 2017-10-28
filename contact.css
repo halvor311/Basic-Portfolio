@@ -3,3 +3,51 @@ h1{
     background-color: #4aaaa5;
     width: 25%;
 }
+input [type=text], select, textarea {
+    width: 30%;
+    padding: 12px;
+    height: 100px;
+
+}
+body{
+    background-image: url(assets/images/stonehaven.png)
+}
+aside {
+    width: 240px;
+    height: 175px;
+    padding: 15px;
+    margin-top: -286px;
+    /* margin-left: 18px; */
+    float: right;
+    background-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    }
+    .github{
+        width: 30px;
+        /* float: right; */
+        position: relative;
+         
+    }
+    .linkedin{
+        width: 30px;
+        /* float: right; */
+        position: relative;
+    }
+    .stackoverflow{
+        width: 30px;
+        /* float: right; */
+        position: relative;
+    }
+    div{
+        margin: auto;
+        width: 60%
+    }
+    h2{
+        text-align: center;
+        position: relative;
+        margin: -2.2% 0% 0% 0%;
+        color: #4aaaa5;
+        font-family: "Georgia";
+    }

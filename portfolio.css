@@ -1,0 +1,168 @@
+body{
+    background-image: url(assets/images/stonehaven.png)
+}
+
+
+aside {
+    width: 240px;
+    height: 175px;
+    padding: 15px;
+    margin-top: 40px;
+    /* margin-left: 18px; */
+    float: left;
+    background-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    }
+
+    
+    section{
+        height: 495px;
+        padding: 15px;
+        margin-top: 40px;
+        margin-right: 18px;
+        float: left;
+        background-color: #ffffff;
+        width: 620px;
+        border-style: solid;
+        border-color: #cccccc;
+        border-width: 1px;
+    }
+    .github{
+        width: 30px;
+        /* float: right; */
+        position: relative;}
+
+.linkedin{
+    width: 30px;
+    /* float: right; */
+    position: relative;
+}
+.stackoverflow{
+    width: 30px;
+    /* float: right; */
+    position: relative;
+}
+div{
+    margin: auto;
+    width: 60%
+}
+.h1 {
+    background: #4aaaa5;
+    color: white;
+    width: 40%;
+    border-style: solid; 
+    border-color: #cccccc;}
+h1 {
+    position: relative;
+    width: 620px;
+}
+header{
+    padding: 5px;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: #cccccc;
+    height: -2px;
+
+}
+.name{
+    Position: Absolute;
+    top: 0px;
+    padding: -1px;
+    left: 42px;
+}
+nav{
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+li+li{
+    border-width: 0px 0px 0px 1px; 
+    border-style: solid; 
+    border-color: #777777;
+}
+a:link{
+    text-decoration: none;
+    color: #777777;    
+}
+a:visited{
+    text-decoration: none;
+    color: #777777;    
+}
+a:hover{
+    text-decoration: none;
+    color: #777777;
+}
+a:active{
+    text-decoration: none;
+    color: #777777;    
+}
+h2{
+    text-align: center;
+    position: relative;
+    margin: -2.2% 0% 0% 0%;
+    color: #4aaaa5;
+}
+
+.portfolioText {
+    margin-top:73px;
+}
+.hangman{
+    width: 80px;
+    float: left;
+}
+.hangman{
+    margin-left: 46px;
+    margin-right:4px;
+}
+}
+.RPG{
+    width: 5px;
+}
+.hang{
+    width: 60px;
+}
+.rpg{
+width: 100px;
+}
+.rpg_game{
+    width: 100px;
+    margin-top: -13%;
+    margin-left: 11%;
+}
+.trivia{
+    float: left;
+    margin-left: -127px;
+    margin-bottom: 68px;
+    margin-top: 43px;
+}
+.rutgers{
+    float: right;
+    margin-top: -89px;
+    margin-right: 80px;
+    margin-bottom: 70px
+}
+.rock{
+    width: 90px;
+    margin-left: 232px;
+    margin-top: -89px;
+}
+.triviagame{
+    margin-left: 60px;
+    margin-top: 46px;
+}
+.paper{
+    margin-top: -27px;
+    margin-left: 277px;
+}

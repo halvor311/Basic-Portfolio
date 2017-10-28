@@ -1,0 +1,45 @@
+head{
+background-image: assets/images/stonehaven.png;
+}
+p{
+    color: #777777;
+    float: middle;
+}
+p{
+    color: #777777;
+    float: right;
+}
+
+.About_Me {
+    float: middle;
+    color: #4aaaa5;
+}
+.image {
+float: left;
+}
+.h1 {
+    background: #4aaaa5;
+    color: white;
+  width: 25%;
+  border-style: solid; 
+  border-color: #cccccc;
+}
+h2{
+    float: right;
+    position: relative;
+}
+.github{
+    width: 30px;
+    float: right;
+    position: relative;
+}
+.linkedin{
+    width: 30px;
+    float: right;
+    position: relative;
+}
+.stackoverflow{
+    width: 30px;
+    float: right;
+    position: relative;
+}
