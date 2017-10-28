@@ -138,6 +138,51 @@ aside {
         margin: auto;
         width: 60%
     }
-    .footer{
-        
+    .hangman{
+        width: 80px;
+        float: left;
+    }
+    .hangman{
+        margin-left: 46px;
+        margin-right:4px;
+    }
+    }
+    .RPG{
+        width: 5px;
+    }
+    .hang{
+        width: 60px;
+    }
+    .rpg{
+    width: 100px;
+    }
+    .rpg_game{
+        width: 100px;
+        margin-top: -13%;
+        margin-left: 11%;
+    }
+    .trivia{
+        float: left;
+        margin-left: -127px;
+        margin-bottom: 68px;
+        margin-top: 43px;
+    }
+    .rutgers{
+        float: right;
+        margin-top: -89px;
+        margin-right: 80px;
+        margin-bottom: 70px
+    }
+    .rock{
+        width: 90px;
+        margin-left: 232px;
+        margin-top: -89px;
+    }
+    .triviagame{
+        margin-left: 60px;
+        margin-top: 46px;
+    }
+    .paper{
+        margin-top: -27px;
+        margin-left: 277px;
     }
