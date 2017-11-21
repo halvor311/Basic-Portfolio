@@ -1,58 +1,74 @@
-<!DOCTYPE html>
-<html lang="eng-us">
+<!doctype html>
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="index.css">
+  <meta charset="UTF-8">
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-        <header>
-                <div class="name">
-                    <h1 class= "h1">Gabriel Vermund</h1>
-                </div>
-                    <nav> 
-                        <ul>
-                            <li><a href= "index.html">About</a></li>
-                            <li><a href= "portfolio.html">Portfolio</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-            </header>
-            
-            <section>
-            <h1 class='portfolioText'>Portfolio</h1>
-            <hr>
-    <div class="hangman">
-    <img class="hang" src= "http://www.sightwordsgame.com/wp-content/uploads/2011/11/Hangman.jpg" style="width 100%"/>
-    <h3 class="hangman">Hangman</h3>
-</div>
-    <div class="RPG">
-    <img class="rpg" src= "http://lh3.googleusercontent.com/PRb64gR75E1x6NSyGepcJKMcSzVZdG-vXoE8BlzkZg9h_r45ICi0xcdCXvc74KcNUYU=w128"/>
-<h3 class="rpg_game">RPG Game</h3>
-</div>
-<div class="triviagame">
-    <img class="trivia" src="http://d1marr3m5x4iac.cloudfront.net/images/block/I0-001/036/134/922-9.png_/trivia-night-happy-hour-22.png"/>
-<h3 class="triviagame">Trivia Game</h3>
-</div>
-<div class="rutgers">
-    <img class="rutgers" src="https://logo.clearbit.com/rutgers.edu"/>
-    <h3 class="rutgers">Rutgers Info Widget</h3>
-</div>
-<div class="rockpaperscissors">
-    <img class="rock" src="https://is3-ssl.mzstatic.com/image/thumb/Purple71/v4/f7/df/a3/f7dfa3f6-4a06-b5ec-fbae-dea689f9395f/source/256x256bb.jpg"
-    />
-    <h3 class="paper">Rock Paper Scissors</h3>
-</div>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+
+        <h3>Hangman</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
     </section>
-    <aside> 
-            <h2>Connect With Me</h2> 
-                <hr>
-                
-                <div>  
-                    <img class="stackoverflow" src="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded"/>
-                    <img class="linkedin" src="https://www.greencore.com/wp-content/uploads/2016/06/LinkedIn-logo.jpg"/>  
-                    <img class="github" src= "https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-256.png"/> 
-                </div>
-    </aside>   
-    
-    </footer>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Your Name
+    </div>
+  </footer>
 </body>
+
+</html>

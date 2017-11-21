@@ -11,7 +11,7 @@ body{
         
     }   
     .About_Me {
-        float: middle;
+        
         color: #4aaaa5;
     }
     .image {
@@ -150,24 +150,26 @@ aside {
     .RPG{
         width: 5px;
     }
-    .hang{
+    #hang{
         width: 60px;
+        float: left;
     }
-    .rpg{
+    #rpg{
     width: 100px;
+    float: right;
     }
     .rpg_game{
         width: 100px;
         margin-top: -13%;
         margin-left: 11%;
     }
-    .trivia{
+    #trivia{
         float: left;
         margin-left: -127px;
         margin-bottom: 68px;
         margin-top: 43px;
     }
-    .rutgers{
+    #Rutgers{
         float: right;
         margin-top: -89px;
         margin-right: 80px;
@@ -185,4 +187,7 @@ aside {
     .paper{
         margin-top: -27px;
         margin-left: 277px;
+    }
+    #rutgers{
+        float: auto;
     }
